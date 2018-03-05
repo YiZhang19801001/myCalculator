@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>Calculator Demo</h1>
+<div>
+  <label for="num1">Enter First Number</label>
+  <input name="num1" #num1/>
+</div>
+
+<div>
+  <label for="num2">Enter Second Number</label>
+  <input name="num2" #num2/>
+</div>
+
+<div>
+  <button #btn1 (click)="Cal(num1, num2, btn1)">+</button>
+  <button #btn2 (click)="Cal(num1, num2, btn2)">-</button>
+  <button #btn3 (click)="Cal(num1, num2, btn3)">*</button>
+  <button #btn4 (click)="Cal(num1, num2, btn4)">/</button>
+</div>
+
+<div>{{res}}</div>
+
