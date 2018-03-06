@@ -1,0 +1,21 @@
+
+button{
+    width: 40px;
+    height:40px;
+}
+
+.bigbutton{
+    width: 84px;
+    height: 40px;
+}
+
+.display{
+    height: 60px;
+    font-size: 30px;
+    border: 1px solid grey;
+}
+
+table{
+
+    border: 1px solid grey;
+}
