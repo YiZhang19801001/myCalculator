@@ -4,28 +4,28 @@
     <td><button #btn1 (click)="NumPress(btn1)">1</button></td>
     <td><button #btn2 (click)="NumPress(btn2)">2</button></td>
     <td><button #btn3 (click)="NumPress(btn3)">3</button></td>
-    <td><button #btnAdd [disabled]="OptStatus" (click)="OptPress(btnAdd)">+</button></td>
+    <td><button #btnAdd (click)="OptPress(btnAdd)">+</button></td>
   </tr>
 
   <tr>
     <td><button #btn4 (click)="NumPress(btn4)">4</button></td>
     <td><button #btn5 (click)="NumPress(btn5)">5</button></td>
     <td><button #btn6 (click)="NumPress(btn6)">6</button></td>
-    <td><button #btnSub [disabled]="OptStatus" (click)="OptPress(btnSub)">-</button></td>
+    <td><button #btnSub (click)="OptPress(btnSub)">-</button></td>
   </tr>
 
   <tr>
     <td><button #btn7 (click)="NumPress(btn7)">7</button></td>
     <td><button #btn8 (click)="NumPress(btn8)">8</button></td>
     <td><button #btn9 (click)="NumPress(btn9)">9</button></td>
-    <td><button #btnMul [disabled]="OptStatus" (click)="OptPress(btnMul)">*</button></td>
+    <td><button #btnMul (click)="OptPress(btnMul)">*</button></td>
   </tr>
 
   <tr>
     <td><button #btn0 (click)="NumPress(btn0)">0</button></td>
     <td><button #btnDot (click)="NumPress(btnDot)">.</button></td>
     <td><button #btnEquel (click)="OptPress(btnEquel)">=</button></td>
-    <td><button #btnDiv [disabled]="OptStatus" (click)="OptPress(btnDiv)">/</button></td>
+    <td><button #btnDiv (click)="OptPress(btnDiv)">/</button></td>
   </tr>
 
   <tr>
@@ -33,5 +33,17 @@
     
     
     <td colspan="2"><button class="bigbutton" (click)="Clear()">Clear</button></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td *ngFor="let num of this.nums">{{num}}</td>
+  </tr>
+  <tr>
+    <td>{{this.nagtive}}</td>
+  </tr>
+  <tr>
+    <td>{{this.numHolder}}</td>
   </tr>
 </table>
