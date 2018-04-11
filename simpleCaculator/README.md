@@ -1,4 +1,4 @@
-# Diploma of Software Development Home
+# Diploma of Software Development Homework
 This small project is a practice of computer logic and angular data binding.
 
 ## SimpleCaculator
