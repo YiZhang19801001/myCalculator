@@ -1,4 +1,7 @@
-# SimpleCaculator
+# Diploma of Software Development Home
+This small project is a practice of computer logic and angular data binding.
+
+## SimpleCaculator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
